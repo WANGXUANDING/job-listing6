@@ -4,7 +4,7 @@
 <br>
 <br>
 <table class="table table-bordered">
-  <% @job.each do |job| %>
+  <% @jobs.each do |job| %>
   <tr>
     <td>
       <%= link_to(job.title, admin_job_path(job)) %>
